@@ -5,7 +5,7 @@ services:
   - docker
 env:
   global:
-    - PACT_BROKER_BASE_URL=https://test.pactflow.io
+    - PACT_BROKER_BASE_URL=https://imanage.pact.dius.com.au
     - PACT_BROKER_PUBLISH_VERIFICATION_RESULTS=true
     # Encrypted PACT_BROKER_TOKEN
     - secure: "gBhZqR5nvDqODwi5MLXNDQHtCE/KmgXSC9qeZX20inkhjb/89shQfq1E8tzHPdgb7ImI4Uxe4aYlPqLbEaXUqOcTpq3vMeQ9BS7g2gqhVdtbLYX5ZH1u74bh/DjUueMXLiUyEYbExqPLDZm2vx66xSS8IyA+DNJf1HM5QNLwWpCuaG9f5e4u79r8xvm3GevfcMM4tdHhbMTL6JvBrPfhYGffK4gt6pRYW9qtZLyqeiWo2Q1AMxZimGUvUAGL9L1AphTnVeyG/Kc6kDrxfPK5oJrpG1nx6z9b62jmrd7ASQMcTMM/tEcdDG80QSBOe03oqcwm7uBbJXmqXpCryXVd59+PQLikeZAj0aXatj24jBV7sehICudETbupy+5HtsVLTnmdinq1W8Ba1+RQ3hrH7Bx1xLYRMWwW6eDutIldws9BZ+bdUjvpvqbf7X2sxsujmXJumRleHph1cF4ODfLz2zmLtBkUpN4vd7VkOTvSLxCRpbShBCLc43F4T/4m6ROA+dpZcXGRsw9SzEW+hNKnycVdZj/71tOYJ9DB9JFW0zPG63jng/oSlh1k4aXmIpIqPgJBoo+nxwBme80mgBimT1mOfrQf83TIEDGCgRFKQ97QOYwwNmpKOX3euS0Gp/A2Yey70WcNLHdfqyxrru68J0HUmQpfKm1JRK5/Llvgon0="
